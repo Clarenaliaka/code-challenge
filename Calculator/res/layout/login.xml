@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/adroid" >
+
+    <TextView
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="281dp"
+        android:layout_height="37dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="30sp" 
+        android:layout_margin="30dp"
+        android:textColor="#000000"/>
+    
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonsubmit"
+        android:layout_margin="10dp" 
+        android:textSize="25sp"
+        android:background="#660"/>
+    
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttoncancel"
+        android:layout_margin="10dp" 
+        android:textSize="25sp"
+        android:background="#660"/>
+        </LinearLayout>
+
+</LinearLayout>

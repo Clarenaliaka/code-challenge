@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonlogin">Login</string>
+    <string name="buttonregister">Register</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="buttonsubmit">Submit</string>
+    <string name="buttoncancel">Cancel</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="numberone">Number One</string>
+    <string name="numbertwo">Number Two</string>
+    <string name="buttonresults">Results</string>
+    <string name="buttonadd">Add</string>
+    <string name="buttonsubtraction">Subtraction</string>
+    <string name="buttondivision">Division</string>
+    <string name="buttonmultiply">Multiply</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="firstname">First Name</string>
+     <string name="id">Id No</string>
+     
+</resources>
