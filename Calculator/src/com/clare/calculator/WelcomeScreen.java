@@ -36,10 +36,10 @@ public class WelcomeScreen extends ActionBarActivity implements OnClickListener{
 		startActivity(new Intent(getApplicationContext(),LoginScreen.class));
 		break;
 		
-case R.id.btnRegister:
-	Toast.makeText(WelcomeScreen.this, "Work is done" , Toast.LENGTH_SHORT).show();
+    case R.id.btnRegister:
+	    Toast.makeText(WelcomeScreen.this, "Work is done" , Toast.LENGTH_SHORT).show();
 		
-	startActivity(new Intent(getApplicationContext(),RegisterScreen.class));
+	   startActivity(new Intent(getApplicationContext(),RegisterScreen.class));
 		
 		break;
 

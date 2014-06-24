@@ -38,6 +38,10 @@
             android:name="com.clare.calculator.HomeScreen"
             android:label="@string/title_activity_home_screen" >
         </activity>
+        <activity
+            android:name="com.clare.calculator.etadd"
+            android:label="@string/title_activity_register" >
+        </activity>
        
     </application>
 
