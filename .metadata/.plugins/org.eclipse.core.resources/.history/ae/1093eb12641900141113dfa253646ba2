@@ -1,0 +1,56 @@
+package com.example.modernmum;
+
+
+import android.app.Activity;
+
+import android.os.Bundle;
+
+import android.widget.ImageButton;
+
+public class AdvertScreenActivity extends Activity {
+ImageButton ibstroller,ibnipo,ibdiaper;
+
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.advert);
+	
+		ibstroller = (ImageButton) findViewById(R.id.ibstroller);
+		ibstroller.setImageResource(R.drawable.stroller);
+		
+		ibdiaper = (ImageButton) findViewById(R.id.ibbaby);
+		ibdiaper.setImageResource(R.drawable.baby);
+		
+		ibnipo = (ImageButton) findViewById(R.id.ibnipo);
+		ibnipo.setImageResource(R.drawable.nipple);
+		
+	}
+
+	/*public void clickHandler(View v) {
+		switch (v.getId()) {
+		case R.id.ibstroller:
+			startActivity(new Intent(getApplicationContext(),ContactsScreenActivity.class));
+			break;
+			
+      case R.id.ibbaby:
+    	  startActivity(new Intent(getApplicationContext(),ContactsScreenActivity.class));
+			break;
+     case R.id.ibnipo:
+    	 startActivity(new Intent(getApplicationContext(),ContactsScreenActivity.class));
+	break;
+
+		default:
+			break;
+		}
+		
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}*/
+
+	
+}

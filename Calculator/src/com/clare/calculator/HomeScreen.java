@@ -1,6 +1,7 @@
 package com.clare.calculator;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 
@@ -16,7 +18,7 @@ public class HomeScreen extends ActionBarActivity implements OnClickListener  {
 	EditText etNumberone,etNumbertwo,etresults;
 	TextView tvresults;
 	
-	Button btnadd,btnsubtraction,btndivision,btnmultiply;
+	Button btnadd,btnsubtraction,btndivision,btnmultiply,btnhomsubmit,btnhomcancel;
 	String strNumberone, strNumbertwo, strresults;
 	operation oper;
 	
@@ -46,6 +48,12 @@ public class HomeScreen extends ActionBarActivity implements OnClickListener  {
 		
 		btnmultiply    = (Button) findViewById(R.id.btnmultiply);
 		btnmultiply.setOnClickListener(this);
+		
+		btnhomsubmit = (Button) findViewById(R.id.btnhomsubmit);
+		btnhomsubmit.setOnClickListener(this);
+		
+		btnhomcancel = (Button) findViewById(R.id.btnhomcancel);
+		btnhomcancel.setOnClickListener(this);
 	
 		oper = new operation();
 			
@@ -60,8 +68,9 @@ public class HomeScreen extends ActionBarActivity implements OnClickListener  {
 				strNumberone=etNumberone.getText().toString();
 				strNumbertwo=etNumbertwo.getText().toString();
 				
-				int Numberone = Integer.parseInt(strNumberone);
-				int Numbertwo = Integer.parseInt(strNumbertwo);
+				//converting string to integer
+			    Numberone = Integer.parseInt(strNumberone);
+				 Numbertwo = Integer.parseInt(strNumbertwo);
 				int result = oper.addition(Numberone,Numbertwo);
 				
 				String Result= String.valueOf(result);
@@ -75,12 +84,12 @@ public class HomeScreen extends ActionBarActivity implements OnClickListener  {
 						strNumberone=etNumberone.getText().toString();
 						strNumbertwo=etNumbertwo.getText().toString();
 						
-						int Numberone1 = Integer.parseInt(strNumberone);
-						int Numbertwo1 = Integer.parseInt(strNumbertwo);
+					Numberone = Integer.parseInt(strNumberone);
+					Numbertwo = Integer.parseInt(strNumbertwo);
 						
 						//converting string to integer
 					 
-						int ans = oper.subtraction(Numberone1,Numbertwo1);
+						int ans = oper.subtraction(Numberone,Numbertwo);
 						String results= String.valueOf(ans);
 						tvresults.setText(results);
 						break;
@@ -93,11 +102,11 @@ public class HomeScreen extends ActionBarActivity implements OnClickListener  {
 						strNumberone=etNumberone.getText().toString();
 						strNumbertwo=etNumbertwo.getText().toString();
 						
-						int Numberone2 = Integer.parseInt(strNumberone);
-						int Numbertwo2 = Integer.parseInt(strNumbertwo);
+						 Numberone = Integer.parseInt(strNumberone);
+						 Numbertwo = Integer.parseInt(strNumbertwo);
 					 
 						//converting string to integer
-						int answer= oper.multiplication(Numberone2,Numbertwo2);
+						int answer= oper.multiplication(Numberone,Numbertwo);
 						String Results= String.valueOf(answer);
 						tvresults.setText(Results);
 						break;
@@ -118,6 +127,23 @@ public class HomeScreen extends ActionBarActivity implements OnClickListener  {
 						String Resul= String.valueOf(ans1);
 						tvresults.setText(Resul);
 					 break;
+					 
+
+				 case R.id.btnhomsubmit:
+					 
+					 Toast.makeText(HomeScreen.this, "please check" , Toast.LENGTH_SHORT).show();
+						startActivity(new Intent(getApplicationContext(),Check.class));
+						
+					
+						break;
+				
+				 case R.id.btnhomcancel:
+					 Toast.makeText(HomeScreen.this, "login" , Toast.LENGTH_SHORT).show();
+						startActivity(new Intent(getApplicationContext(),Check.class));
+						
+						
+						break;
+				
 					 
 			       default:
 				

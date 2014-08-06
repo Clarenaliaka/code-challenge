@@ -1,0 +1,27 @@
+package com.clare.akirachix;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class LoginScreen extends ActionBarActivity{
+	//Declaration of variables
+	Button btncancel;
+	Button btnlogin;
+	EditText etemail;
+	EditText etpassword;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.login);
+	//Initialize of variables
+	btncancel = (Button) findViewById(R.id.buttonlogincancel);
+	btnlogin = (Button) findViewById(R.id.buttonloglogin);
+	etemail = (EditText)findViewById(R.id.etloginemail);
+	etpassword = (EditText) findViewById(R.id.etloginpassword);
+	}
+	
+
+}

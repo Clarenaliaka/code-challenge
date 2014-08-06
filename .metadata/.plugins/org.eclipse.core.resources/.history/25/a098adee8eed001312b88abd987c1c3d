@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/pic"
+    android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/etloginemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" 
+        android:textSize="30sp"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etloginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" 
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+     
+        />
+
+    <Button
+        android:id="@+id/buttonlogincancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttoncancel"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/buttonloglogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonlogin"
+        />
+
+</LinearLayout>

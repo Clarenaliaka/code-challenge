@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/pic"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etloginemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etloginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonlogincancel"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_weight="0.00"
+        android:text="@string/buttoncancel"
+        android:textSize="25sp"
+        android:textColor="078F49" />
+
+    <Button
+        android:id="@+id/buttonloglogin"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_weight="0.00"
+        android:text="@string/buttonlogin"
+        android:textSize="25sp" />
+
+</LinearLayout>

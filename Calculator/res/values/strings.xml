@@ -15,14 +15,37 @@
     <string name="title_activity_home_screen">HomeScreenActivity</string>
     <string name="numberone">Number one</string>
     <string name="numbertwo">Number two</string>
+    <string name="btntrycommand">Try command</string>
+    <string name="tbpassword">Toggle Button</string>
     <string name="results">Results</string>
-    <string name="buttonadd">+</string>	
+    <string name="buttonadd">+</string>
     <string name="buttonsubtraction">-</string>
     <string name="buttondivision">/</string>
     <string name="buttonmultiply">x</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="firstname">First Name</string>
-     <string name="id">Id No</string>
-     
+    <string name="id">Id No</string>
+    <string name="spinner">Chose The Town</string>
+
+    <string-array name="city_arrays">
+        <item>Kakamega</item>
+        <item>Kisumu</item>
+        <item>Eldoret</item>
+        <item>Nakuru</item>
+        <item>Kericho</item>
+        <item>Naivasha</item>
+        <item>Mombasa</item>
+    </string-array>
+
+    <string name="title_activity_check">Check</string>
+    <string name="meat">Meat</string>
+    <string name="sukuma">Sukuma</string>
+    <string name="pork">Pork</string>
+    <string name="fish">Fish</string>
+    <string name="saga">Saga</string>
+    <string name="btndisplay">Display</string>
+     <string name="favourite">Get Your Favourite Food</string>
+    
+
 </resources>

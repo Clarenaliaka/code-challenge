@@ -90,14 +90,22 @@
     android:layout_height="match_parent"
     android:orientation="horizontal" >
 
-    <Button
-        android:id="@+id/btnregsubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonsubmit" 
-        android:textSize="25sp"
-        android:layout_margin="25dp" 
-        android:background="#FFFFFF"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:prompt="@string/spinner"
+            android:entries="@array/city_arrays"/>
+
+        <Button
+            android:id="@+id/btnregsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:text="@string/buttonsubmit"
+            android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnregcancel"
@@ -105,7 +113,7 @@
         android:layout_height="wrap_content"
         android:text="@string/buttoncancel" 
         android:textSize="25sp" 
-        android:layout_margin="25dp"
+        android:layout_margin="10dp"
         android:background="#FFFFFF"/>
     </LinearLayout>
 

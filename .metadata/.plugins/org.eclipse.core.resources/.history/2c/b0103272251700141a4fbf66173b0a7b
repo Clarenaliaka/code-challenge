@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mother" >
+
+    <Button
+        android:id="@+id/btnadvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/btnadvert"
+         />
+
+    <Button
+        android:id="@+id/btnchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnadvert"
+        android:layout_alignBottom="@+id/btnadvert"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="62dp"
+         />
+
+    <Button
+        android:id="@+id/btntips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnadvert"
+        android:layout_below="@+id/btnadvert"
+        android:layout_marginTop="53dp"
+        android:text="@string/btntips" />
+
+    <Button
+        android:id="@+id/btnbuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btntips"
+        android:layout_alignBottom="@+id/btntips"
+        android:layout_alignLeft="@+id/btnchat"
+        android:text="@string/btnbuy" 
+       "/>
+
+</RelativeLayout>

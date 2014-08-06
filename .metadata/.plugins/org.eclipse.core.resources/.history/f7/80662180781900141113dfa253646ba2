@@ -1,0 +1,22 @@
+package com.example.modernmum;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+
+
+public class ContactsScreenActivity extends Activity {
+EditText etmult;
+Button btncoback,btncosubmit;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.contacts);
+		etmult = (EditText) findViewById(R.id.etmult);
+		btncoback = (Button) findViewById(R.id.btncoback);
+		btncosubmit = (Button) findViewById(R.id.btncosubmit);
+		
+	}
+
+}

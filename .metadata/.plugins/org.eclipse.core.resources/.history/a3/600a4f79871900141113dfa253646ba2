@@ -1,0 +1,33 @@
+package com.example.modernmum;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+
+public class ContactsScreenActivity extends Activity implements OnClickListener {
+EditText etmult;
+Button btncoback,btncosubmit;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.contacts);
+		etmult = (EditText) findViewById(R.id.etmult);
+		
+		btncoback = (Button) findViewById(R.id.btncoback);
+		btncoback.setOnClickListener(this);
+		
+		btncosubmit = (Button) findViewById(R.id.btncosubmit);
+		btncosubmit.setOnClickListener(this);
+		
+	}
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

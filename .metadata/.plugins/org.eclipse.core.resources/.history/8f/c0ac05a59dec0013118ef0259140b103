@@ -1,0 +1,21 @@
+package com.clare.akirachix;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+
+public class -  extends ActionBarActivity implements OnClickListener{
+	//Declaration of variables
+	Button btnCancel;
+	Button btnLogin;
+	
+	EditText etEmail;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.login);
+		btnCancel = (Button) find 
+	}
+	
+
+}

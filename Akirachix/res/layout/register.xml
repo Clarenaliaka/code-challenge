@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/andr" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/firstname"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/etfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:layout_margin="4dp"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secondname" 
+        android:textSize="25sp" 
+        android:textColor="#000000"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/etsecondname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:layout_margin="4dp"
+       
+        />
+
+    <TextView
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+         android:layout_margin="4dp"
+       />
+
+    <TextView
+        android:id="@+id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" 
+        android:background="#FFFFFF"
+         android:layout_margin="4dp"
+      />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSubmit"
+        android:layout_margin="10dp" 
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:background="#FA5858" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/buttonCancel"
+        android:textSize="25sp" 
+        android:background="#FA5858" 
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

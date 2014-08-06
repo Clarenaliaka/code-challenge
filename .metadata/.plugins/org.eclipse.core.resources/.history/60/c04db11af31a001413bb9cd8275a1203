@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/pink">
+
+    
+   
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/des" />
+
+    <EditText
+        android:id="@+id/etmult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/pink">
+
+    <Button
+        android:id="@+id/btncosubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/btnsubmit" />
+
+    <Button
+        android:id="@+id/btncoback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btncosubmit"
+        android:layout_alignBottom="@+id/btncosubmit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:text="@string/btnback" />
+
+   
+
+    </RelativeLayout>
+
+</LinearLayout>

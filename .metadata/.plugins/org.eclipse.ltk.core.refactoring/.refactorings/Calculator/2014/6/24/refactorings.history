@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Calculator/res/layout/home.xml&apos; to &apos;homescreen.xml&apos;" description="Rename resource &apos;home.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/home.xml" name="homescreen.xml" stamp="1402736941099" updateReferences="true"/>
+</session>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/first name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="@string/first_name_"
+        android:textSize="25sp"
+        />
+
+     
+    </EditText>
+
+    <EditText
+        android:id="@+id/secondname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="@string/secondname"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/e-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+      
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+       
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonsubmit" 
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttoncancel"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+    />
+
+</LinearLayout>

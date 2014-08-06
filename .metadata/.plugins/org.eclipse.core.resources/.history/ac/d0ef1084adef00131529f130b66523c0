@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Akirachix</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonlogin">Login</string>
+    <string name="buttonregister">Register</string>
+    <string name="first_name">First Name:</string>
+    <string name="secondname">Second Name:</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="buttonsubmit">Submit</string>
+    <string name="buttoncancel">Cancel</string>
+   
+</resources>
